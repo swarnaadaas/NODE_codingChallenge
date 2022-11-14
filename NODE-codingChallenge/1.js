@@ -2,8 +2,8 @@ var passenger = [];
 var read = require('readline-sync');
 
 for (let i = 0; i < 10; i++) {
-    var name = read.question("enter the name: ");
-    passenger.push(name);
+    var pname = read.question("enter the passenger name: ");
+    passenger.push(pname);
 }
 console.log(passenger);
 
