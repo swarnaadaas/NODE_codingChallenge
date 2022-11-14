@@ -37,7 +37,6 @@ console.log(passenger);
 
 //c)searching name
 
-const read = require('readline-sync')
 let search = read.question('Enter  name for search: ');
 let s = 0;
 for (let i = 0; i < passenger.length; i++) {
