@@ -24,7 +24,7 @@ console.log(passenger);
 //b)printing descending order of array
 
 for (let i = 0; i < passenger.length; i++) {
-    for (let j = 0; j < passenger.length - i - 1; j++) {
+    for (let j = 0; j < passenger.length - i; j++) {
         if (passenger[j] < passenger[j + 1]) {
             var temp = passenger[j]
             passenger[j] = passenger[j + 1]
